@@ -14,7 +14,7 @@ RUN apt-get update \
     freeswitch-mod-odbc-cdr \
     unixodbc \
     unixodbc-dev \
-    libmyodbc \
+    odbc-postgresql \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 ENTRYPOINT ["freeswitch"]
