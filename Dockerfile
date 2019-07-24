@@ -11,6 +11,10 @@ RUN apt-get update \
     && apt-get install -y freeswitch-meta-vanilla \
     freeswitch-mod-translate \
     freeswitch-mod-xml-curl \
+    freeswitch-mod-odbc-cdr \
+    unixodbc \
+    unixodbc-dev \
+    libmyodbc \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 ENTRYPOINT ["freeswitch"]
