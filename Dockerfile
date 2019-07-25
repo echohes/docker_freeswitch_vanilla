@@ -11,6 +11,7 @@ RUN apt-get update \
     && apt-get install -y freeswitch-meta-vanilla \
     freeswitch-mod-translate \
     freeswitch-mod-xml-curl \
+    freeswitch-mod-xml-rpc \
     freeswitch-mod-odbc-cdr \
     unixodbc \
     unixodbc-dev \
