@@ -13,6 +13,7 @@ RUN apt-get update \
     freeswitch-mod-xml-curl \
     freeswitch-mod-xml-rpc \
     freeswitch-mod-odbc-cdr \
+    freeswitch-mod-shout \
     unixodbc \
     unixodbc-dev \
     odbc-postgresql \
